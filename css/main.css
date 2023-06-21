@@ -1,0 +1,84 @@
+body, body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #e9e984;
+}
+#calc2 {
+    width: 20rem;
+    height: 35rem;
+    margin-top: 3rem;
+    background-color: #c34fe0;
+    color: #DFDEF9;
+    border-radius: 5px 5px 0px 0px;
+    
+}
+#calcEkranas {
+    height: 8rem;
+    background-color: #FBFBFB;
+    color: #bd3434;
+    border-radius: 5px 5px 0px 0px;
+    text-align: end;
+}
+.veiksmai {
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(221, 143, 40);
+}
+.rezult {
+    padding: 10px;
+    font-size: 50px;
+}
+#buttonPanel {
+    display: flex;
+    flex-wrap: wrap;
+    height: 30rem;
+    justify-content: space-between;
+    margin: auto;
+    text-align: center;
+}
+.butt {
+    width: 4.5rem;
+    height: 4.5rem;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 2rem;
+    place-items: center;
+    background-color: #200f80;
+    border: none;
+    color: antiquewhite;
+    user-select: none;
+    cursor: pointer;
+    
+}
+.butt:hover {
+    color: #200f80;
+    background-color: #7d74b1;
+    border-radius: 30px;
+}
+.button {
+    margin-top: 30px;
+}
+
+#lygu {
+    width: 20rem;
+    height: 3rem;
+    background-color: #200f80;
+    font-size: 2rem;
+    float: inline-end;
+    color: #FBFBFB;
+    border-radius: 0px 0px 5px 5px;
+}
+#lygu:hover {
+    color: #200f80;
+    background-color: #7d74b1;
+    border-radius: 30px;}
